@@ -14,21 +14,21 @@ def main():
     printconsole(test_str)
 
     print("---------------FILE READING AND PRINTING---------------")
-    test_str = readfile("data/test.txt")
+    test_str = readfile("data/test3.txt")
     printconsole(test_str)
 
     print("---------------PANDAS FILE READING AND PRINTING---------------")
-    test_str = readfilepandas("data/test.txt")
+    test_str = readfilepandas("data/test3.txt")
     printconsole(test_str)
 
     print("---------------FILE WRITING AND PRINTING---------------")
-    writefile("data/test.txt", "Have a nice day!")
-    test_str = readfile("data/test.txt")
+    writefile("data/test3.txt", "Some string...")
+    test_str = readfile("data/test3.txt")
     printconsole(test_str)
 
     print("---------------PANDAS FILE WRITING AND PRINTING---------------")
-    writefilepandas("data/test.txt", "Have a nice day!")
-    test_str = readfilepandas("data/test.txt")
+    writefilepandas("data/test3.txt", "Some string...")
+    test_str = readfilepandas("data/test3.txt")
     printconsole(test_str)
 
 if __name__ == '__main__':
