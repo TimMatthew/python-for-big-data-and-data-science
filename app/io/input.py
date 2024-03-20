@@ -1,28 +1,21 @@
 import pandas as pd
-
-
-def printconsole():
+def enter():
     """
     Function gets en input from user and returns it
     :returns: a string object
     """
-
-    """    
     prompt = input("Input: ")
     return prompt
-    """
 
-
-def writefile():
+def readfile():
     """
     Function reads a file and returns the contents of the file
     :return: a string object
     """
 
-
-def writefilepandas():
+def readfilepandas():
     """
     Function reads a file and returns the content
-    using pandas functionality
+    using Pandas functionality
     :return: a string object
     """
